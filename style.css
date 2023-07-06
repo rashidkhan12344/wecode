@@ -1,0 +1,49 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+
+ul, li, ol{
+  list-style: none;
+}
+
+.header-1{
+  background-color: rgb(219, 200, 209);
+}
+
+
+.nav-1{
+
+  display: flex;
+  justify-content:space-around;
+  align-items: center;
+}
+
+
+.ul-1{
+  display: flex;
+  
+}
+
+.a-home{
+  padding-right: 15px;
+  font-size: 18px;
+  font-weight: bold;
+  text-transform: capitalize;
+  
+}
+
+.a-home:hover{
+  text-decoration: none;
+}
+
+
+.nav-1 .search{
+  font-size: 18px;
+  padding: 5px;
+  border-radius: 5px;
+  outline: none;
+}
+
